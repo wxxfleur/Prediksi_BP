@@ -35,4 +35,4 @@ if st.button("Prediksi Harga"):
     prediksi = model.predict(input_df)[0]
     st.success(f"Prediksi Harga: Rp {prediksi:,.2f}")
 
-Add app.py for commodity price prediction
+Add app.py for price prediction
